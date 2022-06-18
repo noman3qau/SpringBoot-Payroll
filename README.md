@@ -22,4 +22,4 @@ curl -v -X POST localhost:8080/orders -H 'Content-Type:application/json' -d '{"d
 
 curl -X PUT localhost:8080/orders/5/complete
 
-curl -X PUT localhost:8080/orders/4/cancel
+curl -X DELETE localhost:8080/orders/4/cancel
