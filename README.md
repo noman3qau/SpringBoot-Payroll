@@ -3,7 +3,7 @@ This is Java base backend Application I have made in SpringBoot Framework with m
 
 # Following are the list of Rest APIs
 
-#Employee
+# Employee
 curl -X GET localhost:8080/employees
 
 curl -X GET localhost:8080/employees/{id}
@@ -13,7 +13,7 @@ curl -v -X POST localhost:8080/orders -H 'Content-Type:application/json' -d '{"n
 curl -X DELETE localhost:8080/employees/{id}
 
 
-#Order
+# Order
 curl -X GET localhost:8080/oders
 
 curl -X GET localhost:8080/employees/{id}
