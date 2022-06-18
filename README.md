@@ -8,15 +8,15 @@ curl -X GET localhost:8080/employees
 
 curl -X GET localhost:8080/employees/{id}
 
-curl -v -X POST localhost:8080/orders -H 'Content-Type:application/json' -d '{"name":"Noman","role":"Java developer"}'
+curl -v -X POST localhost:8080/employees -H 'Content-Type:application/json' -d '{"name":"Noman","role":"Java developer"}'
 
 curl -X DELETE localhost:8080/employees/{id}
 
 
 # Order
-curl -X GET localhost:8080/oders
+curl -X GET localhost:8080/orders
 
-curl -X GET localhost:8080/employees/{id}
+curl -X GET localhost:8080/orders/{id}
 
 curl -v -X POST localhost:8080/orders -H 'Content-Type:application/json' -d '{"description":"Samsung","status":"IN_PROGRESS"}'
 
